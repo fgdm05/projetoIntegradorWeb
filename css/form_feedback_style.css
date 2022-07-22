@@ -1,0 +1,19 @@
+main {
+    background-color: #222222;
+}
+main section {
+    padding: 2em 0;
+}
+main form {
+    margin-top: 2em;
+    text-align: center;
+}
+main form textarea {
+    font-size: 28px;
+    text-align: justify;
+}
+main form input {
+    display: block;
+    font-size: 28px;
+    margin: 0 auto;
+}

@@ -1,0 +1,24 @@
+header {
+    background-color: #555555;
+}
+header img {
+    width: 200px;
+    vertical-align: middle;
+}
+header nav ul {
+    margin-left: 5em;
+    display: inline-block;
+    vertical-align: middle;
+}
+header nav ul a:not(:first-child) {
+    margin-left: 1em;
+}
+header nav ul a {
+    color: white;
+    font-size: 28px;
+    text-decoration: none;
+}
+header nav a:hover {
+    color: blue;
+    text-decoration: underline;
+}

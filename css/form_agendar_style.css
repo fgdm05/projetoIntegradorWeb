@@ -1,0 +1,37 @@
+main {
+    background-color: #222222;
+}
+
+main #agenda {
+    margin: 0 auto;
+    text-align: center;
+}
+
+main #agenda .titulo {
+    padding-top: 2em;
+}
+
+main #agenda form {
+    padding: 2em;
+    margin: 2em 0;
+    display: inline-block;
+    background-color: white;
+    border: #2e2e2e solid 20px;
+    border-radius: 20px;
+}
+
+main #agenda form,
+main #agenda form input,
+#agenda form select {
+    font-size: 28px;
+    text-align: justify;
+}
+
+main #agenda form li {
+    display: block;
+}
+
+main #agenda form li p {
+    margin-right: 10px;
+    display: inline-block;
+}

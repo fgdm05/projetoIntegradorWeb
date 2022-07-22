@@ -1,0 +1,60 @@
+#content {
+    margin: 1em 0 0 0 ;
+}
+#contato {
+    display: block;
+    text-align: center;
+    background-color: #222222;
+    padding: 2em 0;
+}
+#contato h3 {
+    color: #f0b002;
+    display: block;
+    text-align: center;
+    font-size: 28px;
+}
+#contato #barbeiro {
+    vertical-align: top;
+    display: inline-block;
+}
+#contato #barbeiro img {
+    vertical-align: middle;
+    width: 300px;
+    height: 300px;
+}
+#contato #descricao {
+    color: white;
+    margin-left: 0.5em;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 28px;
+    width: 300px;
+    text-align: justify;
+}
+#contato form {
+    margin-left: 2em;
+    display: inline-block;
+}
+#contato form li {
+    text-align: justify;
+    width: 500px;
+    display: block;
+}
+#contato form li * {
+   text-align: center;
+}
+#contato form li input {
+    width: 100%;
+    text-align: justify;
+}
+#contato form li textarea {
+    font-size: 24px;
+    width: 100%;
+}
+#contato form li p {
+    color: white;
+    display: inline-block;
+}
+#contato form li p, #contato form input {
+    font-size: 24px;
+}

@@ -1,0 +1,20 @@
+/* cor de fundo da divisao do documento*/
+#bloco-sobre {
+  background-color: #222222;
+  padding: 2em 0;
+}
+
+#bloco-sobre h3 {
+  text-align: center;
+  font-size: 40px;
+  color: #f0b002;
+}
+
+#bloco-sobre p {
+  margin: 1em auto 0 auto;
+  padding: 1em;
+  width: 70%;
+  border-radius: 14px;
+  background-color: #fff;
+  font-size: 20px;
+}

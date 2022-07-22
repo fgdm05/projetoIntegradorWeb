@@ -1,0 +1,84 @@
+/*
+===================================================
+=       INICIO DA JANELA MODAL                    =
+===================================================                                          
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+/* cor que escurese o site */
+
+#bg-modal{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.75);
+    position: fixed;
+    top: 100%;
+    z-index: 2;
+    display: block;
+    transition: 350ms;
+}
+
+/* modal = fundo da janela(backound)*/
+#modal{
+    width: 47%;
+    height: 50%;
+    background-color: #212121;
+    border: 1px solid #000;
+    border-radius: 5px;
+    margin: 80px auto 0 auto;
+}
+
+/*botao fechar[ X ]*/
+.fechar span{
+    float: right;
+    font-size: 50px;
+    color: #000000;
+    background-color: #990000;
+    border-radius: 20px;
+    margin: 20px 20px;
+    cursor: pointer;
+    transition: 350ms;
+}
+/*Animacao do botao fechar[ X ]*/
+.fechar span:hover{
+    color: #fff;
+    transition: 350ms;
+}
+
+
+#titulo h1{
+    text-align: center;
+    font-family: Arial;
+    font-size: 32px;
+    color: white;
+    margin: 20px 20px;
+
+}
+/*Bloco onde fica ou background fica os input*/
+#bloco {
+    width: 50%;
+    background: #ffb300;
+    border-radius: 15px;
+    padding: 30px;
+    margin-left: auto; /*margin left e auto centraliza bloco*/
+    margin-right: auto;
+}
+/*Mudei cor da letra botao*/
+.btn-Entrar h1{
+    color: #fff;
+   
+}
+
+/*
+===============================
+=  TERMINA janela modal       = 
+===============================
+*/

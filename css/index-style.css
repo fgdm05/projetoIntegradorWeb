@@ -1,0 +1,11 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+section {
+    padding-top: 1em; 
+}
+section *:not(:first-child) {
+    margin-top: 1em;
+
+}

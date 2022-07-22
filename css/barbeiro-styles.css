@@ -1,0 +1,49 @@
+
+body{
+    background-color: #212121;
+}
+
+#titulo h1{
+    color: #fff;
+    font-size: 80px;
+    font-weight: bold;
+    font-family: Arial;
+    text-align: center;
+}
+
+/*Cor de fundo onde fica os inputs(bg-background)*/
+#bloco{
+    width: 50%;
+    background: #000;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 0 auto;
+    
+}
+
+#bloco ul div {
+    display: inline-block;
+    background: #ffb300;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 0 auto 20px 50px;
+}
+#bloco ul div p {
+    text-align: center;
+    color: #000;
+    font-weight: bold;
+    font-size: 28px;
+}
+#bloco ul div img {
+    width: 200px;
+}
+
+#sub-titulo h3{
+    color: #ffb300;
+    text-align: center;
+}
+
+
+
+
+

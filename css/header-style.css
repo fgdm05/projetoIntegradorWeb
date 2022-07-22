@@ -1,0 +1,32 @@
+header {
+    overflow: auto;
+    background-color: #555555
+}
+header img {
+    width: 200px;
+}
+header *:not(img) {
+    display: inline-block;
+}
+header nav a {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+}
+header nav a:not(:last-child) {
+    margin-right: 1em;
+}
+header nav a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+#lista-principal, #lista-cadastro {
+    float: right;
+    vertical-align: top;
+    margin: 5em 5em 5em 0;
+}
+
+.botao h1{
+    color: white;
+}
+

@@ -1,0 +1,41 @@
+main {
+    background-color: #222222;
+}
+main section {
+    padding: 2em 0;
+    text-align: center;
+}
+#usuario {
+    margin-top: 1em;
+    color: white;
+}
+#feedback {
+    margin-top: 1em;
+}
+section .titulo {
+    margin-bottom: 1em;
+}
+#usuario, #feedback, main section nav a {
+    font-size: 28px;
+}
+main section nav {
+    margin-top: 1em;
+}
+main section nav a {
+    color: white;
+    text-decoration: none;
+}
+main section nav a:hover {
+    color: #f0b002;
+    text-decoration: underline;
+}
+main section nav a:not(:first-child) {
+    margin-left: 2em;
+}
+main section table {
+    width: 90%;
+    margin: 0 auto;
+}
+#dsavaliacao {
+    text-align: justify;
+}
